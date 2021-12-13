@@ -26,7 +26,7 @@ namespace WindowsFormsAppEasyCs131
 
         private static PrintDocument pd;
         
-        [STAThread]
+        // [STAThread]
         public Form1()
         {
             InitializeComponent();
