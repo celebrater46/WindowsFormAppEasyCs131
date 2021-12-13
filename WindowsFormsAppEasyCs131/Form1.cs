@@ -79,7 +79,7 @@ namespace WindowsFormsAppEasyCs131
             this.MouseDown += new MouseEventHandler(FmMouseDown);
             this.MouseUp += new MouseEventHandler(FmMouseUp);
             this.Paint += new PaintEventHandler(FmPaint);
-            pd.PrintPage += new PrintPageEventHandler(FmPaint);
+            pd.PrintPage += new PrintPageEventHandler(PdPrintPage);
         }
 
         public void MiClick(Object sender, EventArgs e)
