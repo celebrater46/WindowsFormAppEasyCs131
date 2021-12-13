@@ -1,3 +1,9 @@
 ﻿Define the program's purpose in detail.
 Define its window design.
 Define its classes and their relation and hierarchy.
+
+### Test Result
+
+1: The Ovel's width become half after the file loaded.
+2: The Rect's Height become bigger after I draw. And the width also become half after that loaded.
+3: The Line's width also become half.
